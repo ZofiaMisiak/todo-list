@@ -1,0 +1,17 @@
+.header {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.section__header {
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 7px 20px 1px 20px;
+}
