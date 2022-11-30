@@ -24,7 +24,7 @@
     text-decoration:line-through;
 }
 
-.taskList__buttonDone {
+.taskList__button--Done {
     background-color: rgb(0, 128, 0);
     color: rgb(255, 255, 255);
     height: 33px;
@@ -32,16 +32,16 @@
     border-style: none;
 }
 
-.taskList__buttonDone:hover {
+.taskList__button--Done:hover {
     background-color: rgb(1, 139, 1);
     cursor: pointer;
 }
 
-.taskList__buttonDone:active {
+.taskList__button--Done:active {
     border: 2px solid rgb(0, 0, 0);
 }
 
-.taskList__buttonRemove {
+.taskList__button--Remove {
    float: right;
    background-color: rgb(255, 0, 0);
    height: 33px;
@@ -50,10 +50,10 @@
    cursor: pointer;
 }
 
-.taskList__buttonRemove:hover {
+.taskList__button--Remove:hover {
     background-color: rgb(234, 89, 89);
 }
 
-.taskList__buttonRemove:active {
+.taskList__button--Remove:active {
     border: 2px solid rgb(0, 0, 0);
 }
