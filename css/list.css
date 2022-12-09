@@ -57,3 +57,13 @@
 .taskList__button--Remove:active {
     border: 2px solid rgb(0, 0, 0);
 }
+.list__task--hidden {
+    display: none;
+}
+.list__button--done:hover {
+    background-color: hsl(120, 62%, 44%);
+    transition: 1s;
+}
+.list__button:active {
+    outline: solid 2px #000000
+}
