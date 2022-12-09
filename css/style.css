@@ -8,16 +8,8 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    font-family: 'Lato', sans-serif;
-    line-height: 1.5;
-    background-color: rgb(242, 242, 242);
-    margin: 0 auto;
-    padding: 20px;
-    max-width: 1000px;
-    word-break: break-word;    
-}
-
-.header{
-    font-size: 20px;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ededed;
+    word-break: break-word;
 }
