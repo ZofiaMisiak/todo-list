@@ -1,10 +1,9 @@
 {
     const helloWorld = () => {
-        console.log("Hej! Życzę miłego sprawdzania mojej pracy domowej. :)");
+        console.log("Miłego dnia!");
     };
 
     let tasks = [];
-
     let hideDoneTasks = false;
 
     const addNewTask = (newTaskContent) => {
