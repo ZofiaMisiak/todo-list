@@ -2,14 +2,17 @@ html {
     box-sizing: border-box;
 }
 
-*,
-::after,
-::before {
+*, ::after, ::before {
     box-sizing: inherit;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #ededed;
+.body {
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    max-width: 1000px;
+    padding: 20px;
+    line-height: 1.5;
+    background-color: #eee;
     word-break: break-word;
 }

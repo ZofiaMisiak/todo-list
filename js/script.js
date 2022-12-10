@@ -1,9 +1,10 @@
 {
     const helloWorld = () => {
-        console.log("Miłego dnia!");
+        console.log("Milego dnia. :)");
     };
 
     let tasks = [];
+
     let hideDoneTasks = false;
 
     const addNewTask = (newTaskContent) => {
